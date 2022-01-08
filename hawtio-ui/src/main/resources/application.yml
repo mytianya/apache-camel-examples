@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hawtio,jolokia
+server:
+  port: 8113
+hawtio:
+  #关闭hawtio登录权限验证
+  authenticationEnabled: false
+  offline: true

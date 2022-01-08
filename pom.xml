@@ -10,6 +10,7 @@
   <modules>
     <module>camel-route</module>
     <module>camel-udp-mq</module>
+    <module>hawtio-ui</module>
   </modules>
   <packaging>pom</packaging>
 
